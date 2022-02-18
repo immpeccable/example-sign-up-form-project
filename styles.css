@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    margin: 0;
+}
+.left-side{
+    background-image: url(images/polina-kuzovkova-o_wu-MjDNlc-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+.logo-and-text{
+    background-color: black;
+    width: 40vw;
+    height: 10vh;
+    position: relative;
+    opacity: 0.7;
+    top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8vw;
+}
+.text{
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.img{
+    width: 8vw;
+    height: 8vh;
+}
+.credit{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 40vh;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.right-side .upper-side{
+    display: flex;
+    flex-direction: column;
+    background-color: #eaecf1c4;
+    width: 57vw;
+    height: 23vh;
+    padding-left: 3vw;
+    padding-top: 10vh;
+    font-weight: 700;
+}
+.first{
+    font-size: 25px;
+}
+.italic{
+    font-style: italic;
+}
+.right-side .mid-side{
+    width: 60vw;
+    height: 30vh;
+    
+}
+.mid-side .first{
+    margin-left: 3vw;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+fieldset{
+    margin-left: 2.2vw;
+    border: none;
+    display: flex;
+    gap: 10vw;
+}
+.cell{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    width: 15vw;
+    height: 2.5vh;
+    border-color: #E5E7EB;
+    border-radius: 3px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(27, 24, 24);
+    font-family: Norse;
+}
+
+.button-area{
+    width: 60vw;
+    height: 39.5vh;
+    background-color: #eaecf1c4;
+}
+
+.btn{
+    margin-left: 3vw;
+    margin-top: 4vh;
+    width: 13vw;
+    height: 5vh;
+    font-size: 17px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.sec{
+    margin-left: 3vw;
+    font-size: 17px;
+
+}
+.lnk{
+    text-decoration: none;
+    color: #596D48;
+    font-size: 17px;
+}
